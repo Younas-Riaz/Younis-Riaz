@@ -1,0 +1,6 @@
+{
+  "name": "Smart E-Commerce Product Comparison Website",
+  "description": "Intelligent multi-platform product comparison engine with smart scoring, AI assistant, price tracking, and real-time deal analysis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
