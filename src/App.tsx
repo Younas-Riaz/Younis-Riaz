@@ -18,6 +18,7 @@ import { AdminPage } from './pages/AdminPage';
 import { PricingPage } from './pages/PricingPage';
 import { AboutPage } from './pages/AboutPage';
 import { ContactPage } from './pages/ContactPage';
+import { PortalPage } from './pages/PortalPage';
 
 const AppContent: React.FC = () => {
   const { activePage } = useApp();
@@ -36,6 +37,7 @@ const AppContent: React.FC = () => {
         {activePage === 'pricing' && <PricingPage />}
         {activePage === 'about' && <AboutPage />}
         {activePage === 'contact' && <ContactPage />}
+        {activePage === 'portal' && <PortalPage />}
       </main>
 
       <Footer />

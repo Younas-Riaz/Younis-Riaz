@@ -101,6 +101,14 @@ export const Footer: React.FC = () => {
               </li>
               <li>
                 <button
+                  onClick={() => { setActivePage('portal'); window.scrollTo(0, 0); }}
+                  className="hover:text-white transition-colors text-purple-400 font-semibold"
+                >
+                  Central Web Portal Hub
+                </button>
+              </li>
+              <li>
+                <button
                   onClick={() => { setActivePage('admin'); window.scrollTo(0, 0); }}
                   className="hover:text-white transition-colors"
                 >
